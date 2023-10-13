@@ -1,0 +1,12 @@
+public class BatallaPokemon {
+
+
+    public static void main(String[] args) {
+
+  PokemonElectrico Pikachu = new PokemonElectrico("Pikachu",10) ;
+  PokemonAgua Blastoise= new PokemonAgua("Blastoise",8);
+
+        Pikachu.atacar("Cola de hierro", Pikachu);
+        Blastoise.atacar("Gigacañonazo",Blastoise);
+    }
+}
